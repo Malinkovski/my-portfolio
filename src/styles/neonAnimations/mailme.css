@@ -1,0 +1,61 @@
+.gtp {
+  position: fixed;
+  right: 85px;
+  bottom: 8%;
+  z-index: 10;
+}
+
+.mail-me {
+  position: fixed;
+  font-size: 70px;
+  color: #e4e4e4ea;
+  transition: ease-in-out 0.3s;
+  position: relative;
+  text-shadow: 0px 2px 6px var(--primary-color),
+    0px 2px 12px var(--primary-color), 0px 2px 18px var(--primary-color);
+  animation: flicker 5.5s infinite;
+  opacity: 0.2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  transition: 1s;
+}
+.mail-me span {
+  font-size: 15px;
+}
+
+.gtp p {
+  color: var(--primary-text);
+}
+
+@media screen and (max-width: 800px) {
+  .mail-me {
+    font-size: 50px;
+  }
+  .gtp {
+    right: 20px;
+    bottom: 75px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .mail-me {
+    font-size: 40px;
+  }
+}
+@media screen and (max-width: 1300px) {
+  .gtp {
+    right: 30px;
+  }
+  .gtp span {
+    display: none;
+  }
+}
+.hide {
+  opacity: 0;
+  transition: 2s;
+}
+.hide i {
+  text-shadow: none !important;
+  transition: 1s;
+}

@@ -1,0 +1,30 @@
+.slick-slide {
+    transition: transform 0.3s ease;
+    
+  }
+  
+  .slick-current {
+    transform: scale(1.05);
+    z-index: 1111 !important;
+  }
+
+
+.slide-arrow {
+  height: 50px;
+  width: 50px;
+  color: var(--primary-color);
+  z-index: 111;
+  cursor: none !important;
+}
+
+.slide-arrow:hover {
+  color: var(--hover-color);
+} 
+
+.slide-arrow.next {
+  right: -45px;
+}
+
+.slide-arrow.prev {
+  left: -45px;
+}

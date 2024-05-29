@@ -1,0 +1,96 @@
+/* MEDIA QUERIES =========================  */
+
+@media (max-width: 1300px) {
+  .effect2 {
+    width: 100%;
+  }
+}
+@media (max-width: 800px) {
+  .lead {
+    font-weight: 300;
+  }
+  .heading{
+    transform: translateY(-30%);
+  }
+  h2{
+    margin-top: 50px;
+  }
+  .Header h1 {
+    font-size: 2.5rem;
+  }
+  .line-1 {
+    font-size: 80%;
+    top: 5.5%;
+  }
+  .underline {
+    text-decoration-color: (0, 0, 0, 0.1);
+  }
+  .about-text {
+    width: 100%;
+    text-align: center;
+  }
+  .red-line::before {
+    bottom: 590px;
+  }
+  .effect2 {
+    width: 100%;
+  }
+  .skills {
+    padding: 10% 5%;
+  }
+  .third {
+    width: 100%;
+  }
+  .project-card {
+    width: 100% !important;
+  }
+  .image-project {
+    width: 100% !important;
+  }
+  .third {
+    padding: 5%;
+  }
+  .pp-head-line {
+    width: 70%;
+  }
+  .git-form {
+    width: 90%;
+    padding-bottom: 135px;
+  }
+  .git-head-div {
+    width: 75%;
+  }
+
+  .half form input,
+  textarea {
+    margin: 5px 0;
+    padding: 10px;
+  }
+
+  .Copy {
+    display: none;
+  }
+  .see {
+    margin: 0;
+    position: absolute;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    font-size: 1rem;
+  }
+  .fa-eye {
+    font-size: 20px;
+  }
+  .half form button {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media (max-width: 768px) {
+  .cursor {
+    display: none; 
+  }
+
+}
+

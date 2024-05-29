@@ -1,0 +1,29 @@
+.glow {
+  position: relative;
+}
+
+.glow::before,
+.glow::after {
+  content: "";
+  position: absolute;
+  top: -2px;
+  left: -2px;
+  width: calc(100% + 4px);
+  height: calc(100% + 4px);
+  border: 2px solid transparent;
+  border-radius: 50px;
+  z-index: -1 !important;
+  animation: glow 2s linear infinite;
+  background: linear-gradient(
+    45deg,
+    #ff0000,
+    #ff7300,
+    #fffb00,
+    #48ff00,
+    #00ffd5,
+    #002bff,
+    #7a00ff,
+    #ff00e7,
+    #ff0000
+  );
+}
