@@ -28,8 +28,8 @@ const Works = () => {
         settings: {
           arrows: false,
           centerMode: true,
-          centerPadding: "20px",
-          slidesToShow: 3,
+          centerPadding: "60px",
+          slidesToShow: 1,
         },
       },
       {

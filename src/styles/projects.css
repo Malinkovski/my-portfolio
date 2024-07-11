@@ -80,7 +80,7 @@
   }
   
 
-  .card[for="c1"] {
+/*   .card[for="c1"] {
     background-image: url('');
   }
   .card[for="c2"] {
@@ -91,7 +91,7 @@
   }
   .card[for="c4"] {
     background-image: url('');
-  }
+  } */
 
   @media (max-width: 768px) {
     .container {

@@ -106,9 +106,16 @@ const projects = [
   {
 
     id: "project5",
-    name: "Brainster Labs",
-    skills: ["HTML, CSS, JS, Bootstrap"],
-    url: "https://github.com/Malinkovski/brif",
+    name: "SpaceX Launches",
+    skills: ["GraphQL, Ant.Design, TS, Next"],
+    url: "https://github.com/Malinkovski/spacexlaunches",
+  },
+  {
+
+    id: "project6",
+    name: "Akrotect",
+    skills: ["Next, SEO, TS, Node"],
+    url: "https://akrotect-baumaschinen.com",
   },
 ];
 
@@ -122,7 +129,7 @@ const contact = {
 const social = {
   github: "https://github.com/Malinkovski",
   linkedin: "https://www.linkedin.com/in/ilija-malinkovski-190395236/",
-  resume: "https://azure-babb-59.tiiny.site",
+  resume: "https://drive.google.com/file/d/1EpWHO-zo9ykUnCdrwsdMeCtn0vHg57eB/view?usp=sharing",
 };
 export {
   about,
