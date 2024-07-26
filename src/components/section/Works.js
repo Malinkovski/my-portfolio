@@ -8,6 +8,8 @@ import { CustomNextArrow, CustomPrevArrow } from "../layouts/Arrows"; // Adjust 
 
 const Works = () => {
   const settings = {
+    autoplay: true,
+    autoplaySpeed: 8000,
     centerMode: true,
     centerPadding: "0px",
     slidesToShow: 3,
