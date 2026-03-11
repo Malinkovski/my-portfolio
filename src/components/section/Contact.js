@@ -49,16 +49,16 @@ const Contact = () => {
               <p className="lead">{contact.pitch}</p>
               <div className="d-flex justify-content-center align-items-center">
                 <div className="">
-                  {social.linkedin && (
-                    /*<a
+                  {/*social.linkedin && (
+                    <a
                       title="Visit Linkedin profile"
                       rel="noopener noreferrer"
                       target="_blank"
                       href={social.linkedin}
                     >
                       <i className="fab fa-linkedin"></i>
-                    </a>*/
-                  )}
+                    </a>
+                  )*/}
                   {social.github && (
                     <a
                       title="Visit Github profile"
@@ -69,16 +69,16 @@ const Contact = () => {
                       <i className="fab fa-github"></i>
                     </a>
                   )}
-                  {social.resume && (
-                    /*<a
+                  {/* {social.resume && (
+                    <a
                       className="fab resume-style"
                       title="Download Resume"
                       href={social.resume}
                       download
                     >
                       <i className="fa-regular fa-file"></i>
-                    </a>*/
-                  )}
+                    </a>
+                  )*/}
                 </div>
               </div>
             </div>
