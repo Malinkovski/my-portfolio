@@ -50,14 +50,14 @@ const Contact = () => {
               <div className="d-flex justify-content-center align-items-center">
                 <div className="">
                   {social.linkedin && (
-                    <a
+                    /*<a
                       title="Visit Linkedin profile"
                       rel="noopener noreferrer"
                       target="_blank"
                       href={social.linkedin}
                     >
                       <i className="fab fa-linkedin"></i>
-                    </a>
+                    </a>*/
                   )}
                   {social.github && (
                     <a
@@ -70,14 +70,14 @@ const Contact = () => {
                     </a>
                   )}
                   {social.resume && (
-                    <a
+                    /*<a
                       className="fab resume-style"
                       title="Download Resume"
                       href={social.resume}
                       download
                     >
                       <i className="fa-regular fa-file"></i>
-                    </a>
+                    </a>*/
                   )}
                 </div>
               </div>
